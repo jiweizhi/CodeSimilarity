@@ -14,17 +14,27 @@ if __name__ == '__main__':
      
                 # skip regression.h, for now
                 if (filename == "regression.h"):
-                    print("moving on to next iteration")
+                    while(1):
+                        with open(file_path, "r+") as f:
+                            old = f.read()
+                            index = old.find("\\d")
+                        if index == -1:
+                            break
+                        else:
+                            with open(file_path, "r+") as f:
+                                f.write(old[:index])
+                                f.write(old[(index + 1):])
+                            
                     continue
                 
-                print("processing " + file_path)
+#                 print("processing " + file_path)
                 
                 #print('\t- file %s (full path: %s)' % (filename, file_path))
                 temp = filename.split('.')
                 extension = temp[(len(temp)-1)]
 #                 print("extension = " + extension)
                 #consider only cpp files
-                if (extension == "cpp" or extension == "h"): 
+                if (extension == "cpp" or extension == "h" or extension == "hpp"): 
 #                     with open(file_path, "r+") as f:
 #                         old = f.read()
                     process(file_path)
