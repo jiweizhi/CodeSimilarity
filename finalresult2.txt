@@ -1,0 +1,15 @@
+Similarity percentage between adshares-esc-archive-master and bitshares-bitshares-core-archive-master = 4.6418871463
+Similarity percentage between adshares-esc-archive-master and bitshares-bitshares-fc-archive-master = 1.58383612856
+Similarity percentage between adshares-esc-archive-master and bitshares-bitshares1-core-archive-master = 3.51195320741
+Similarity percentage between adshares-esc-archive-master and blockarraygroup-OpenTX-archive-master = 2.73337145926
+Similarity percentage between adshares-esc-archive-master and blockarraygroup-tierion-client-archive-master = count was zero!!!!!!! no compared result 
+Similarity percentage between adshares-esc-archive-master and BlocknetDX-BlockDX-archive-master = 3.20508197004
+Similarity percentage between adshares-esc-archive-master and BlueDragon747-bfgminer-archive-bfgminer = 6.73943353148
+Similarity percentage between adshares-esc-archive-master and BlueDragon747-Blakecoin-archive-master = 4.44350906111
+Similarity percentage between adshares-esc-archive-master and BlueDragon747-Blakecoin_Python_POW_Module-archive-master = 0.852392312963
+Similarity percentage between adshares-esc-archive-master and BlueDragon747-BlakeSharp8-archive-master = count was zero!!!!!!! no compared result 
+Similarity percentage between adshares-esc-archive-master and BlueDragon747-clblake-archive-master = 7.34304632778
+Similarity percentage between adshares-esc-archive-master and BlueDragon747-FPGA-Blakecoin-Miner-archive-master = 9.96956303424
+Similarity percentage between adshares-esc-archive-master and BlueDragon747-universalmol-archive-master = 4.45809164259
+Similarity percentage between adshares-esc-archive-master and BreakoutCoin-Breakout-Chain-Client-archive-master = 44.8866320852
+Similarity percentage between adshares-esc-archive-master and britcoin3-britcoin3.1-archive-master = 10.7100957894
