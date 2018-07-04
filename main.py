@@ -1,7 +1,7 @@
 import shutil
 import os
 from itertools import combinations
-from twisted.conch.client import direct
+# from twisted.conch.client import direct
 import subprocess
 from subprocess import call
 import select
@@ -15,7 +15,7 @@ import errno
 # TODO
 directorypath = "C:/Users/User/Desktop/test_coins/c/"
 
-finalresultdirectory = "finalresults/"
+finalresultdirectory = "finalresults6/"
 
 r = 2
 

@@ -1,7 +1,7 @@
 import shutil
 import os
 from itertools import combinations
-from twisted.conch.client import direct
+# from twisted.conch.client import direct
 import subprocess
 from subprocess import call
 import select
@@ -113,7 +113,7 @@ if __name__ == '__main__':
         
         
         if (satisfied == 0):
-            if(not((coin1 == "adshares-esc-archive-master") and (coin2 == "bitshares-bitshares-core-archive-master"))):
+            if(not((coin1 == "bulwark-crypto-nist5_hash-archive-master") and (coin2 == "ZencashOfficial-blue-app-btc-archive-master"))):
                 continue
             else:
                 satisfied = 1
@@ -141,7 +141,7 @@ if __name__ == '__main__':
         p = multiprocessing.Process(target=compare, args=(coin1,coin2))
         threads.append(p)
         count = count + 1
-        if (count == 10):
+        if (count == 20):
             for thread in threads:
                 thread.start()
             for thread in threads:
